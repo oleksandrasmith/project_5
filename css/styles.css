@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+#searchbar {
+    display: block;
+    margin: 1em auto;
+    width: 50%;
+    padding: .5em;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+#gallery {
+    max-width: 1050px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
